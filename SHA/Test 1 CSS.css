@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'quicksand',sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 300px 100px;
+}
+
+.main:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/Backgg.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.sub{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: aliceblue;
+    opacity: 0.9;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 200px;
+
+}
+
+.left{
+    position:relative;
+    height:300px;
+    width:400px;
+    margin:10px;
+    align-content: center
+}
+
+.right{
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-right: 200px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.outer{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.inner:hover{
+    width: 1500px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    animation: imgSwapper 9s steps(3,end) infinite, opacityChanger 9s infinite;
+}
+
+@keyframes imgSwapper{
+    to{left: -1220px;}
+}
+
+@keyframes opacityChanger{
+    0%{opacity: 0;}
+    05%{opacity: 1 }
+    28%{opacity: 1 }
+    33%{opacity: 0 }
+    38%{opacity: 1 }
+    62%{opacity: 1 }
+    67%{opacity: 0 }
+    72%{opacity: 1 }
+    96%{opacity: 1 }
+    100%{opacity: 0 }
+}
