@@ -47,7 +47,7 @@ body{
     height:300px;
     width:400px;
     margin:10px;
-    align-content: center
+    align-content: center;
 }
 
 .right{
@@ -55,7 +55,7 @@ body{
     margin-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    padding-right: 200px;
+    padding-right: 10px;
 }
 img{
     width: 400px;
@@ -96,4 +96,9 @@ img{
     72%{opacity: 1 }
     96%{opacity: 1 }
     100%{opacity: 0 }
+}
+
+.table{
+    margin-left: 50px;
+    text-align: center;
 }
