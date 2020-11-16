@@ -29,7 +29,7 @@ body{
 }
 
 section{
-    padding: 3.9rem 0;
+    padding: 1rem 0;
     overflow: hidden;
 }
 
@@ -70,7 +70,7 @@ p{
     font-family: var(--main-font);
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: .5rem;
+    letter-spacing: .7rem;
     margin-right: -.5rem;
     animation: scale .5s forwards;
 }
@@ -155,12 +155,12 @@ p{
 
 .headline-dark{
     color: var(--main-font-color-dark);
-    letter-spacing: .7rem;
+    letter-spacing: .3rem;
     margin-right: -.7rem;
 }
 
 .global-headline .sub-headline{
-    letter-spacing: -1px;
+    letter-spacing: 2.2px;
     line-height: .42;
 }
 
@@ -221,7 +221,7 @@ p{
 }
 
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1200px){
         section{
         padding: 7rem;
     }
@@ -230,7 +230,7 @@ p{
     }
     
     .headline{
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: .8rem;
     }
     
