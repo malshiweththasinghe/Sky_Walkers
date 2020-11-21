@@ -53,7 +53,7 @@ p{
 }
 
 .sub-headline{
-    font-size: 6.5rem;
+    font-size: 8.5rem;
     font-family: var(--secondary-font);
     color: var(--secondary-font-color);
     font-weight: 100;
@@ -63,6 +63,12 @@ p{
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
 }
+
+.global-headline .sub-headline{
+    font-size: 6rem;
+    font-family: 'Caveat';
+    line-height: 5rem;
+    }
 
 .headline{
     color: #fff;
@@ -309,6 +315,7 @@ footer{
     .global-headline .sub-headline{
         font-size: 7rem;
         line-height: 6rem;
+        font-family: 'Caveat';
     }
     
     .global-headline .headline{
